@@ -7,6 +7,10 @@ public:
         while(x > revert) {
             revert = revert * 10 + x % 10;
             x /= 10;
-        } return x == revert|| x == revert/10;
+        } 
+        
+        
+        
+        return x == revert|| x == revert/10;
     }
 };
